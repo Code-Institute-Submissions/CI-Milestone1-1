@@ -39,4 +39,5 @@ The photo represents me and was done by my wife using CLR Canon EOS1300 Camera.
 # Acknowledgements
 
 I received inspiration from CodeInstitute (www.codeinstitute.net)
+Coolors.co - website was used to generate colour scheme
 
