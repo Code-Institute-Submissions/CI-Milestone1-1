@@ -51,7 +51,20 @@ body {
     font-size: 17px;
 
 }
+/* purpsoe */
+.purpose {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #243e36;
+    color: #ffffff;
+}
 
+.purpose>p {
+    font-size: 28px;
+}
+.purpose>h4 {
+    font-size: 18px;
+}
 /* About  */
 
 .about {
@@ -126,6 +139,7 @@ button[type="submit"] {
 /* skills */
 
 .skills {
+    padding-top: 15px;
     background-color: #25291c;
     color: #ffffff;
 }
@@ -159,6 +173,11 @@ button[type="submit"] {
     color: #25291c;
     font-weight: 600;
     text-decoration: none;
+    
+}
+
+.para {
+    padding-left: 20px;
     
 }
 
