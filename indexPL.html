@@ -15,7 +15,13 @@
     <!--  nav -->
     <div class="container-fluid navalert-container">
         <nav class="navbar navbar-dark navbar-expand-sm">
-            <a href="index.html" class="navbar-brand">POLSKI</a>
+            <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          JĘZYK
+        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="index.html">English</a>
+                <a class="dropdown-item" href="indexPL.html">Polish</a>
+            </div>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
@@ -59,7 +65,8 @@
         <div class="row">
             <!-- about -->
             <div class="col-sm-12 about" id="about">
-                <p>Jestem zdeterminowanym, pomocnym i cięzkopracującą osobą, którą pasja jest IT. Jestem uczciwym człowiekiem który wykonuje polecenia ale również jest zdolny do wydzielania zadań dla zespołu. Wierzę, że człowiek uczy sie całe życie i zawsze będzie ktoś czy coś, co pomoże rozwijać moję umiejętności. Obecnie szukam pracy w firmie która chciałaby zatrudnić młodego i zdolnego programistę.  </p>
+                <p>Jestem zdeterminowanym, pomocnym i cięzkopracującą osobą, którą pasja jest IT. Jestem uczciwym człowiekiem który wykonuje polecenia ale również jest zdolny do wydzielania zadań dla zespołu. Wierzę, że człowiek uczy sie całe życie i zawsze
+                    będzie ktoś czy coś, co pomoże rozwijać moję umiejętności. Obecnie szukam pracy w firmie która chciałaby zatrudnić młodego i zdolnego programistę. </p>
             </div>
         </div>
         <!-- skills -->
@@ -93,7 +100,7 @@
                 <h4 class="skills-heading uppercase">Back End</h4>
                 <i class="skills-icon fa fa-terminal" aria-hidden="true"></i>
                 <p>
-                   Specializuje się jako deweloper. Dużo z moich projektów używa Python(Django), Java razem w połączeniu z bazami danych takimi jak: MySQL czy MongoDB do zarządzania danymi i prezentowani wyników dla użytkownika końcowego. .<br>
+                    Specializuje się jako deweloper. Dużo z moich projektów używa Python(Django), Java razem w połączeniu z bazami danych takimi jak: MySQL czy MongoDB do zarządzania danymi i prezentowani wyników dla użytkownika końcowego. .<br>
                 </p>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item skills">JAVA</li>
@@ -136,9 +143,9 @@
                 <h3 class="uppercase text-center" id="contact">Kontakt</h3>
 
                 <form>
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Imię" required />
                     <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
-                    <input type="textarea" rows="5" name="infotext" id="infotext" class="form-control" placeholder="Description" required>
+                    <input type="textarea" rows="5" name="infotext" id="infotext" class="form-control" placeholder="Opis" required>
                     <div class="form-row text-center">
                         <div class="col-sm-12">
                             <button type="submit" class="btn btn-light">Wyślij!</button>
